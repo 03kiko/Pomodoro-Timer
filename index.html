@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/355bca32c1.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+    <div class="initial-page" id="initial-page">
+      <h1>Pomodoro Timer Settings</h1>
+      <div class="sub-text">
+        <p class="sub-text">Set the length of work and break intervals:</p>
+      </div>
+      <div>
+        <label for="work-interval-minutes"> <p>Work interval (minutes):</p></label>
+        <input id= "work-interval-minutes" type="number" min="1" value="25">
+      </div>
+      <div>
+        <label for="work-interval-seconds"><p>Work interval (seconds):</p></label>
+        <input id= "work-interval-seconds" type="number" min="1" value="0">
+      </div>
+      <div>
+        <label for="break-interval-minutes"><p>Break interval (minutes):</p></label>
+        <input id= "break-interval-minutes" type="number" min="1" value="5">
+      </div>
+      <div>
+        <label for="break-interval-seconds"><p>Break interval (seconds):</p></label>
+        <input id= "break-interval-seconds" type="number" min="1" value="0">
+      </div>
+      <button id="start-timer-button" onclick="nextPage()"><i class="fa-solid fa-play"></i><p>Start Timer</p></button>
+    </div>
+  
+  <section id="timer-panel">
+        <div class="container">
+            <h1>Pomodoro Timer</h1>   <!--"The <h1> defines the most important heading aka Title"-->
+
+            <div class="painel">
+                <p id="work">Work</p>   <!--"The <p> HTML element represents a paragraph"-->
+                <p id="vertical-row"></p>
+                  <p id="break">Break</p>
+            </div>
+
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes"></p>
+                        <p>:</p>
+                        <p id="seconds"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
+                <a id="reset" href="./"><i class="fa-solid fa-stop"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <script src="./main.js"></script>
+</body>
+</html>
