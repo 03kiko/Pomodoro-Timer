@@ -1,8 +1,8 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                             //
 // To add:                                                                                     // 
-//  ->input validation;                                                                        //
-//  ->additional functionalities such as pause and resume buttons;                             //
+//  -> input validation;                                                                       //
+//  -> additional functionalities such as pause and resume buttons;                            //
 //  -> sound indicator when a interval ends;                                                   //
 //  -> music during the intervals, maybe be able to choose a music type in the initial page;   //
 //  -> progress bar;                                                                           //
