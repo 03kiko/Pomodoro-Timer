@@ -31,6 +31,6 @@ There is many more things to add so feel free to do a pull request!
 ## Contributing:
 Pull requests are welcome :)
 
-## check out the original work:
+## Check out the original work:
 - [Video](https://bit.ly/3Il5O3p)
 - [Github](https://github.com/ErickKS/pomodoro-timer)
