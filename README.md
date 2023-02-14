@@ -11,7 +11,7 @@ Disclaimer: This repo is heavily inspired by [ErickKS](https://github.com/ErickK
 [Live Demo](https://03kiko.github.io/Pomodoro-Timer/);
 
 ## What's next ?
-The idea of this project is to add some functionalities to make *ErickKS* work more complete.
+The idea of this project is to add some functionalities to make *ErickKS* work more complete and lear a little bit more of Js, Html and Css.
 There is many more things to add so feel free to do a pull request!
 
 ## What I added:
