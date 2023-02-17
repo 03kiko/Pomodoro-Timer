@@ -1,7 +1,9 @@
 # Pomodoro Timer
 Disclaimer: This repo is heavily inspired by [ErickKS](https://github.com/ErickKS/pomodoro-timer) work.
 
-## Project
+This project is a customizable Pomodoro Timer built using JavaScript, HTML, and CSS. The application was heavily inspired by the work of [ErickKS](https://github.com/ErickKS/pomodoro-timer), and includes additional features such as an initial page for setting work and break intervals, and a vertical row to display the intervals. The application is a work in progress, with many additional features planned for future development.
+
+## Preview
 ## Initial Page:
  <img width="478" alt="image" src="https://user-images.githubusercontent.com/113793178/218610709-3af8bb61-bbe1-4ab3-bb97-b241c694e29c.png">
  
@@ -10,11 +12,10 @@ Disclaimer: This repo is heavily inspired by [ErickKS](https://github.com/ErickK
 
 [Live Demo](https://03kiko.github.io/Pomodoro-Timer/)
 
-## What's next ?
-The idea of this project is to add some functionalities to make *ErickKS* work more complete and learn a little bit more of Js, Html and Css.
-There are many more things to add so feel free to do a pull request!
+## Usage
+To use the Pomodoro Timer, simply access the application in your web browser and customize the work and break intervals as desired. Once the intervals are set, click the "Start" button to begin the timer.
 
-## What I added:
+## Planned Features:
 - Initial page that allows users to customize their work and break intervals;
 - Modified the timer function to work with the inputs;
 - Add a vertical row to the work/break panel;
@@ -22,15 +23,14 @@ There are many more things to add so feel free to do a pull request!
 ## What to add next:
 - Input validation;
 - Additional functionalities such as pause and resume buttons;
-- Sound indicator when a interval ends;
-- Music during the intervals, maybe be able to choose a music type in the initial page;
+- Sound indicator when an interval ends;
+- Music during the intervals, with the ability to choose a music type on the initial page;
 - Progress bar;
 - Session count;
-- Long and short brake times;    
+- Long and short break times.   
 
 ## Contributing:
-Pull requests are welcome :)
+Contributions to this project are welcome via pull requests. If you have suggestions for improving the application or would like to add a new feature, please feel free to submit a pull request.
 
-## Check out the original work:
-- [Video](https://bit.ly/3Il5O3p)
-- [Github](https://github.com/ErickKS/pomodoro-timer)
+## Original work:
+This project was inspired by the work of ErickKS. Their original code can be found on his [GitHub repository](https://github.com/ErickKS/pomodoro-timer). Here's his youtube video as well: [Youtube video](https://bit.ly/3Il5O3p)
